@@ -37,7 +37,7 @@ ItemStyle[RunewordBase]: MapIcon = 92, BorderColor = 118, BorderSize = 2, Notifi
 //
 // Hidden: All potions except supers and full rejuv
 // =============================================================
-ItemDisplay[GOLD<30000]:
+ItemDisplay[GOLD<5000]:
 ItemDisplay[leg]: %NAME%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4 OR rvs]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
@@ -85,7 +85,7 @@ ItemDisplay[SPECIAL OR SYNTH]: %NAME% <:Unique: NotificationSound = Sound6>
 ItemDisplay[RUNETIER>25]: %NL% %PURPLE%OOO      %ORANGE%%NAME%      %PURPLE%OOO %NL%%SPACE% <<Runes>>
 ItemDisplay[RUNETIER>19 AND RUNETIER<26]: %NL% %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NL%%SPACE% <:Runes: NotificationSound = Sound2>
 ItemDisplay[RUNETIER=18 OR RUNETIER=15]: %NAME% <:Runes: NotificationSound = 1>
-ItemDisplay[RUNETIER>0 AND RUNETIER<20]:
+ItemDisplay[RUNETIER>0 AND RUNETIER<20]: %NAME%
 
 // Hidden: Unid Large charms, Grand charms <ilvl50, Small charms <ilvl50
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL% %PURPLE%OO  %GOLD%%NAME%  %PURPLE%OO %NL%%SPACE% <:Unique: NotificationSound = Sound6>
