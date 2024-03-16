@@ -184,8 +184,8 @@ ItemDisplay[UNI uar !ID]: %!Unique!% <:Unique: NotificationSound = Sound6>
 ItemDisplay[UNI (xea OR xhn OR xpl) !ETH !ID]: %!Unique!% <<Unique>>
 // arkaines, gbane, tgods, razortail
 ItemDisplay[UNI (upl OR utu OR zhb OR zvb) !ETH !ID]: %!Unique!% <<Unique>>
-// silks, war trav, dracs
-ItemDisplay[UNI (xmb OR xtb OR uvg) !ETH !ID]: %!Unique!% <<Unique>>
+// silks, war trav, dracs, sandstorm
+ItemDisplay[UNI (xmb OR xtb OR uvg OR uvb) !ETH !ID]: %!Unique!% <<Unique>>
 // shako, steelshade, nightwings veil
 ItemDisplay[UNI (uap OR ulm OR uhm) !ETH !ID]: %!Unique!% <<Unique>>
 // andys, gaze, steelrend
