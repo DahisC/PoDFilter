@@ -212,7 +212,9 @@ ItemDisplay[SUP uit (SOCK=0 OR SOCK=4) STAT91=-10 !ETH !RW]: %NL%  %DARK_GREEN%%
 // (Dahis) 5os polearms, mancatcher
 ItemDisplay[(7s8 OR 7vo OR 7pa OR 7h7 OR 7wc OR 7br) SOCK=5 ETH !RW]: Dahis - %NAME%
 // (Dahis) 3os armors
-ItemDisplay[(utp OR uld OR upl OR uhn OR urs OR ucl OR ung OR utu OR ula OR uea OR uui) SOCK=3 ETH !RW]: Dahis - %NAME%
+ItemDisplay[(utp OR uld OR upl OR uhn OR urs OR ucl OR ung OR utu OR ula OR uea OR uui) SOCK=3 ETH !RW]: Dahis - (ETH) 3os %NAME%
+// (Dahis) 3os armors
+ItemDisplay[(utp OR uld OR upl OR uhn OR urs OR ucl OR ung OR utu OR ula OR uea OR uui) SOCK=3 ETH !RW]: Dahis - 3os %NAME%
 
 // RARES >ilvl79
 // gloves, boots, circs
