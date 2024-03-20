@@ -225,4 +225,4 @@ ItemDisplay[ARMOR (MAG OR RARE OR UNI OR SET) !ID]:
 ItemDisplay[ARMOR NMAG !RW]:
 
 // catch
-// ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
