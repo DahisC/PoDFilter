@@ -37,7 +37,7 @@ ItemStyle[RunewordBase]: MapIcon = 92, BorderColor = 118, BorderSize = 2, Notifi
 //
 // Hidden: All potions except supers and full rejuv
 // =============================================================
-ItemDisplay[GOLD>1000]: %GRAY%$
+ItemDisplay[GOLD>1000]: $
 ItemDisplay[GOLD<1000]:
 ItemDisplay[leg]: %NAME%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
@@ -54,7 +54,7 @@ ItemDisplay[rvs]: %PURPLE%35%
 // Hidden: All except flawless skull and all Perfects
 // =============================================================
 ItemDisplay[skl OR skz]: %NL% %BORDER(94,2)%%TAN%%NAME% %NL%%SPACE%%NOTIFYSOUND(Sound3)%%NOTIFY(TAN)%%MAPICON(59)%
-ItemDisplay[GEMTIER=1 OR GEMTIER=2 OR GEMTIER=3 OR GEMTIER=4]:
+ItemDisplay[GEMTIER=1 OR GEMTIER=2 OR GEMTIER=3]:
 
 // =============================================================
 // ENDGAME QUEST ITEMS AND POD ITEMS
@@ -225,4 +225,4 @@ ItemDisplay[ARMOR (MAG OR RARE OR UNI OR SET) !ID]:
 ItemDisplay[ARMOR NMAG !RW]:
 
 // catch
-ItemDisplay[]: %NAME%
+// ItemDisplay[]: %NAME%
